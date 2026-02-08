@@ -1,0 +1,12 @@
+#!/bin/bash
+apt update -y
+apt install -y apache2 php php-mysql wget tar unzip
+systemctl enable apache2
+systemctl start apache2
+cd /var/www/html
+wget https://wordpress.org/latest.tar.gz
+tar -xzf latest.tar.gz
+mv wordpress/* .
+rm -rf wordpress latest.tar.gz
+chown -R www-data:www-data /var/www/html
+systemctl restart apache2

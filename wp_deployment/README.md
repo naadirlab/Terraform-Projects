@@ -79,7 +79,7 @@ The WordPress stack was deployed successfully.
 Screenshot: 
 ![alt text](../images/Result.png)
 
-### Lessons Learned
+## Lessons Learned
 - Terraform can fully automate EC2 provisioning and software installation.
 - Security groups and ports are crucial: HTTP/HTTPS must be open to access the site.
 - Always use outputs to quickly access deployed resources.

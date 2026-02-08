@@ -12,6 +12,8 @@ The deployment includes:
 - User data script to install Apache, PHP, and WordPress
 - A publicly accessible WordPress site
 
+## Steps
+
 ### 1. Set up Terraform
 
 I created the Terraform configuration files:

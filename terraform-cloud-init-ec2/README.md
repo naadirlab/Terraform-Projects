@@ -1,6 +1,6 @@
 # EC2 Deployment with Cloud-Init
 
-In this project, I used Terraform to deploy an EC2 instance on AWS using cloud-init. Unlike the first assignment, where I installed WordPress with a Bash script in user_data, here I explored the more standardized approach of cloud-init, which is widely used for bootstrapping servers.
+In this project, I used Terraform to deploy an EC2 instance on AWS using cloud-init. Unlike the first project, where I installed WordPress with a Bash script in user_data, here I explored the more standardised way of cloud-init, which is widely used for bootstrapping servers.
 
 ## Architecture
 
